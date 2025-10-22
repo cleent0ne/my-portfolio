@@ -143,7 +143,7 @@ function initProjectCards() {
             }, 150);
         });
 
-        // Add hover sound effect (optional)
+        
         card.addEventListener('mouseenter', () => {
             card.style.zIndex = '10';
         });
@@ -154,7 +154,7 @@ function initProjectCards() {
     });
 }
 
-// Toast notifications
+
 function showToast(message) {
     const toast = document.createElement('div');
     toast.className = 'project-toast';
@@ -401,7 +401,7 @@ function debounce(func, wait) {
 
 
 document.addEventListener('DOMContentLoaded', function() {
-    // Add ripple effect to buttons
+    
     document.querySelectorAll('.btn').forEach(button => {
         button.addEventListener('click', function(e) {
             const ripple = document.createElement('span');
