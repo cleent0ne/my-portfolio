@@ -771,8 +771,8 @@ h1, h2, h3, h4, h5, h6 {
 .skill-item[data-skill-level="95"] .skill-level { width: 95%; }
 .skill-item[data-skill-level="90"] .skill-level { width: 90%; }
 .skill-item[data-skill-level="85"] .skill-level { width: 85%; }
-.skill-item[data-skill-level="50"] .skill-level { width: 50%; }
-.skill-item[data-skill-level="75"] .skill-level { width: 75%; }
+.skill-item[data-skill-level="80"] .skill-level { width: 80%; }
+.skill-item[data-skill-level="55"] .skill-level { width: 55%; }
 .skill-item[data-skill-level="70"] .skill-level { width: 70%; }
 
 /* Animate skill bars when in view */
