@@ -9,12 +9,6 @@
     <link rel="stylesheet" href="styles/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-
-    <!--icon -->
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><defs><linearGradient id='grad' x1='0%' y1='0%' x2='100%' y2='100%'><stop offset='0%' stop-color='%2300d4aa'/><stop offset='100%' stop-color='%236366f1'/></linearGradient></defs><rect width='100' height='100' fill='url(%23grad)' rx='15'/><text x='50' y='68' font-family='Arial' font-size='45' text-anchor='middle' fill='white' font-weight='bold'>{}</text></svg>">
-    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%2300d4aa' rx='20'/><text x='50' y='68' font-family='Arial' font-size='45' text-anchor='middle' fill='white' font-weight='bold'>{}</text></svg>">
-    <meta name="theme-color" content="#00d4aa">
-
 </head>
 <body>
     <!-- Navigation -->
@@ -114,9 +108,8 @@
                 </div>
             </div>
         </div>
-        </section>
-
-        <!-- About Section -->
+    </section>
+    <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
             <div class="section-header">
@@ -261,7 +254,7 @@
                             </div>
                             <div class="skill-detail">Spring Boot, Spring MVC, Spring Data JPA, Spring Security</div>
                         </div>
-                        <div class="skill-item" data-skill-level="80">
+                        <div class="skill-item" data-skill-level="70">
                             <div class="skill-name">
                                 <span>APIs & Services</span>
                             
@@ -343,7 +336,7 @@
                             </div>
                             <div class="skill-detail">VS Code, IntelliJ IDEA, Maven, Gradle</div>
                         </div>
-                        <div class="skill-item" data-skill-level="75">
+                        <div class="skill-item" data-skill-level="70">
                             <div class="skill-name">
                                 <span>DevOps</span>
                             </div>
@@ -357,7 +350,336 @@
             </div>
         </div>
     </section>
-        
-        <script src="scripts/script.js"></script>
-    </body>
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">🌟 Projects I'm Building</h2>
+                <p class="section-subtitle">Real-world backend solutions and applications</p>
+            </div>
+            <div class="projects-grid">
+                <!-- Green Reuse Exchange Platform -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-badge">Full Stack</div>
+                        <div class="project-links">
+                            <a href="https://github.com/cleent0ne/backendrepo" class="project-link" aria-label="GitHub Repository" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="project-link" aria-label="Live Demo">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3 class="project-title">Green Reuse Exchange Platform</h3>
+                    <p class="project-description">
+                        A full-stack platform enabling users to list and exchange reusable items to reduce waste. 
+                        Built with Spring Boot backend and React.js frontend.
+                    </p>
+                    <ul class="project-features">
+                        <li>JWT-based authentication with Spring Security</li>
+                        <li>React.js frontend with Tailwind CSS</li>
+                        <li>Item management with search and filtering</li>
+                        <li>Location-based item discovery</li>
+                        <li>Admin dashboard for platform management</li>
+                        <li>Real-time item claiming system</li>
+                    </ul>
+                    <div class="project-tech">
+                        <span class="tech-tag">Spring Boot</span>
+                        <span class="tech-tag">React.js</span>
+                        <span class="tech-tag">MySQL</span>
+                        <span class="tech-tag">JWT</span>
+                        <span class="tech-tag">Tailwind CSS</span>
+                    </div>
+                </div>
+
+                <!-- Mpesa Daraja API Integration -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-badge">Payment Integration</div>
+                        <div class="project-links">
+                            <a href="#" class="project-link" aria-label="GitHub Repository">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="project-link" aria-label="Live Demo">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 class="project-title">Mpesa Daraja API Integration</h3>
+                    <p class="project-description">
+                        Spring Boot application integrating with Safaricom's Mpesa API for secure payment processing 
+                        and transaction management.
+                    </p>
+                    <ul class="project-features">
+                        <li>RESTful endpoints for STK Push, B2C, and C2B transactions</li>
+                        <li>Secure authentication and payment processing</li>
+                        <li>Production-ready error handling and validation</li>
+                        <li>Comprehensive logging and monitoring</li>
+                    </ul>
+                    <div class="project-tech">
+                        <span class="tech-tag">Spring Boot</span>
+                        <span class="tech-tag">REST API</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">Security</span>
+                    </div>
+                </div>
+
+                <!-- Enterprise Backend Systems -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-badge">Enterprise</div>
+                        <div class="project-links">
+                            <a href="#" class="project-link" aria-label="GitHub Repository">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="project-link" aria-label="Live Demo">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3 class="project-title">Enterprise Backend Systems</h3>
+                    <p class="project-description">
+                        Spring Boot microservices for business applications with robust architecture 
+                        and scalable design patterns.
+                    </p>
+                    <ul class="project-features">
+                        <li>JWT authentication with Spring Security</li>
+                        <li>PostgreSQL database design and optimization</li>
+                        <li>Microservices communication patterns</li>
+                        <li>API documentation with OpenAPI/Swagger</li>
+                    </ul>
+                    <div class="project-tech">
+                        <span class="tech-tag">Microservices</span>
+                        <span class="tech-tag">Spring Security</span>
+                        <span class="tech-tag">JWT</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                    </div>
+                </div>
+
+                <!-- API Development -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-badge">API Development</div>
+                        <div class="project-links">
+                            <a href="#" class="project-link" aria-label="GitHub Repository">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="project-link" aria-label="Live Demo">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="project-title">API Development</h3>
+                    <p class="project-description">
+                        Robust REST APIs with proper documentation, comprehensive testing, 
+                        and production-ready features.
+                    </p>
+                    <ul class="project-features">
+                        <li>Database integration with Spring Data JPA</li>
+                        <li>Exception handling and logging strategies</li>
+                        <li>API versioning and documentation</li>
+                        <li>Performance optimization and caching</li>
+                    </ul>
+                    <div class="project-tech">
+                        <span class="tech-tag">REST API</span>
+                        <span class="tech-tag">Spring Data JPA</span>
+                        <span class="tech-tag">Documentation</span>
+                        <span class="tech-tag">Logging</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Goals Section -->
+    <section id="goals" class="goals">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">🧭 Career Goals</h2>
+                <p class="section-subtitle">My learning path and professional development objectives</p>
+            </div>
+            <div class="goals-grid">
+                <div class="goal-item">
+                    <div class="goal-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h3>Master Microservices</h3>
+                    <p>Deepen expertise in microservices architecture and distributed systems design patterns</p>
+                </div>
+                <div class="goal-item">
+                    <div class="goal-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Cloud Technologies</h3>
+                    <p>Advance knowledge in Spring ecosystem and cloud-native development practices</p>
+                </div>
+                <div class="goal-item">
+                    <div class="goal-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>API Security</h3>
+                    <p>Become an expert in API security and performance optimization techniques</p>
+                </div>
+                <div class="goal-item">
+                    <div class="goal-icon">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <h3>Open Source</h3>
+                    <p>Contribute to open-source Java projects and build developer community</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">🧑🏽‍💻 Let's Connect</h2>
+                <p class="section-subtitle">Get in touch to discuss your project or just say hello</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <h3>Get In Touch</h3>
+                        <p>I'm always open to discussing new opportunities, creative ideas, or just having a friendly chat about technology.</p>
+                        
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <div class="method-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="method-info">
+                                    <h4>Email</h4>
+                                    <a href="mailto:clintonmg17@gmail.com">clintonmg17@gmail.com</a>
+                                    <span>Direct and professional communication</span>
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                <div class="method-icon">
+                                    <i class="fab fa-linkedin"></i>
+                                </div>
+                                <div class="method-info">
+                                    <h4>LinkedIn</h4>
+                                    <a href="https://www.linkedin.com/in/clinton-magoto-196ba6387" target="_blank">Connect Professionally</a>
+                                    <span>Let's grow our professional network</span>
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                <div class="method-icon">
+                                    <i class="fab fa-whatsapp"></i>
+                                </div>
+                                <div class="method-info">
+                                    <h4>WhatsApp</h4>
+                                    <a href="https://wa.me/254YOURPHONENUMBER?text=Hello%20Clinton%20Magoto,%20I'm%20interested%20in%20your%20services..." 
+                                       target="_blank">Start Quick Chat</a>
+                                    <span>Fast response for project discussions</span>
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                <div class="method-icon">
+                                    <i class="fab fa-github"></i>
+                                </div>
+                                <div class="method-info">
+                                    <h4>GitHub</h4>
+                                    <a href="https://github.com/cleent0ne" target="_blank">@cleent0ne</a>
+                                    <span>Check out my projects and contributions</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-cta">
+                    <div class="cta-card">
+                        <h3>Ready to Collaborate?</h3>
+                        <p>Let's build robust backend systems together — one Spring Bean at a time. ☕</p>
+                        
+                        <div class="fun-fact">
+                            <div class="fact-header">
+                                <i class="fas fa-bolt"></i>
+                                <h4>⚡ Fun Fact</h4>
+                            </div>
+                            <p>I believe great backend systems are the invisible engine that powers amazing user experiences.</p>
+                        </div>
+                        
+                        <div class="cta-actions">
+                            <a href="mailto:clintonmg17@gmail.com" class="btn btn-primary btn-large">
+                                <i class="fas fa-paper-plane"></i>
+                                Send Message
+                            </a>
+                            <a href="#projects" class="btn btn-outline">
+                                View My Work
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="brand-logo">cleent0ne</div>
+                    <p>Building robust backend systems with clean code architecture 💻</p>
+                    <div class="social-links">
+                        <a href="https://github.com/cleent0ne" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/clinton-magoto-196ba6387" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:clintonmg17@gmail.com" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4>Navigation</h4>
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                    <div class="link-group">
+                        <h4>Technologies</h4>
+                        <a href="#skills">Java Spring Boot</a>
+                        <a href="#skills">REST APIs</a>
+                        <a href="#skills">Microservices</a>
+                        <a href="#skills">Database Design</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Clinton Magoto. All rights reserved.</p>
+                <p>Built with <i class="fas fa-heart"></i> and Spring Boot magic</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/254717833069?text=Hello%20Clinton%20Magoto,%20I'm%20interested%20in%20your%20services..." 
+       class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="scripts/script.js"></script>
+</body>
 </html>
