@@ -64,6 +64,13 @@ function initNavigation() {
         });
     });
 }
+function updateCopyrightYear() {
+    const yearElement = document.querySelector('.footer-bottom p:first-child');
+    if (yearElement) {
+        const currentYear = new Date().getFullYear();
+        yearElement.innerHTML = `&copy; ${currentYear} Clinton Magoto. All rights reserved.`;
+    }
+}
 
 // Animations on scroll
 function initAnimations() {
@@ -448,4 +455,5 @@ document.addEventListener('DOMContentLoaded', function() {
         `;
         document.head.appendChild(style);
     }
+    updateCopyrightYear();
 });

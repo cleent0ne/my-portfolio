@@ -1193,8 +1193,9 @@ h1, h2, h3, h4, h5, h6 {
     border-top: 1px solid var(--border-color);
     padding-top: 2rem;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column; /* Stack copyright lines */
+    align-items: center; /* Center horizontally */
+    gap: 0.5rem;
     color: var(--text-muted);
     font-size: 0.9rem;
 }
