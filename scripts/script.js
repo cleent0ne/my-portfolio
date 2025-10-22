@@ -455,9 +455,8 @@ document.addEventListener('DOMContentLoaded', function() {
         `;
         document.head.appendChild(style);
     }
-<<<<<<< HEAD
+
     updateCopyrightYear();
+
 });
-=======
-});
->>>>>>> 9db3cac964caeaf53a5603037196194234336618
+
